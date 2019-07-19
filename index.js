@@ -12,6 +12,6 @@ app.use(
 );
 app.use(bodyParser.json());
 
-generator.positionGenerator();
+generator.dataGen();
 
 app.listen(3001)
